@@ -3,7 +3,6 @@ use fal_rust::{
     utils::download_image,
 };
 use serde::{Deserialize, Serialize};
-use tokio::task::JoinSet;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct ImageResult {
