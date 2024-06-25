@@ -1,6 +1,11 @@
 [package]
 name = "fal-rust"
 version = "0.1.0"
+authors = ["Quatton (atomicatives@gmail.com)"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/Quatton/fal-rust"
+repository = "https://github.com/Quatton/fal-rust"
 edition = "2021"
 
 [dependencies]
