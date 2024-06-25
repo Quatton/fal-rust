@@ -1,5 +1,6 @@
 [package]
 name = "fal-rust"
+description = "Unoffcial Rust API wrapper for fal.ai"
 version = "0.1.0"
 authors = ["Quatton (atomicatives@gmail.com)"]
 license = "MIT OR Apache-2.0"
