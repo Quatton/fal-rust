@@ -2,6 +2,7 @@ use reqwest::{header, Response};
 
 use super::error::FalError;
 
+#[derive(Debug, Clone)]
 pub enum ClientCredentials {
     Key(String),
     FromEnv(String),
@@ -38,6 +39,7 @@ impl ClientCredentials {
     }
 }
 
+#[derive(Debug, Clone)]
 pub struct FalClient {
     credentials: ClientCredentials,
 }
